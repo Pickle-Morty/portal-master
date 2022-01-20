@@ -1,0 +1,80 @@
+.header {
+    background: #0A5AF9;
+    padding: 30px 0;
+}
+
+.header-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+}
+
+.header-wrap .MuiButton-root {
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.nav {
+    background: #F7F7F7;
+    padding: 20px 0;
+}
+
+.nav-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.header-menu__item {
+    margin-right: 30px;
+}
+
+.header-menu__link {
+    font-size: 18px;
+    color: #2A2A2A !important;
+    cursor: pointer;
+}
+
+.header-menu__link-active {
+    font-weight: 700;
+}
+
+.header-menu__link:hover {
+    text-decoration: none !important;
+    font-weight: 700;
+}
+
+.personal-account {
+    display: flex;
+    align-items: center;
+}
+
+.personal-account__link {
+    font-size: 18px;
+    color: #2A2A2A !important;
+    margin-left: 10px !important;
+    cursor: pointer;
+}
+
+.personal-account__link:hover {
+    text-decoration: none !important;
+    font-weight: 700;
+}

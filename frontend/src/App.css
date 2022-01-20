@@ -1,0 +1,16 @@
+.top .MuiButton-root {
+    width: 260px;
+    height: 56px;
+    background: #0A5AF9;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    text-transform: none;
+}
+
+.top .MuiButton-root:hover {
+    background: #2c52ed;
+}

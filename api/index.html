@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.slim.js"></script>
+<script>
+    var socket = io('http://localhost:8000');
+
+    window.socket = socket;
+        socket.on('SERVER:NEW_MESSAGE', (msg) => {
+            if (window.user === msg) {
+                
+            }
+            console.log('Socket message test: ',  msg);
+        });
+</script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+.personal-block {
+    margin-top: 43px;
+}
+
+.edit-btn {
+    background: #0A5AF9 url("../../assets/ic-edit.svg") 12% 49% no-repeat !important;
+}
+
+.personal-menu {
+    margin-top: 80px;
+}
+
+.personal-menu__list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0 0 44px 0;
+    padding: 0;
+}
+
+.personal-menu__item {
+    font-size: 24px;
+    color: #2A2A2A;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.react-tabs__tab--selected {
+    font-weight: 700;
+}
+
+.personal-menu .MuiButton-root {
+    width: 260px;
+    height: 56px;
+    border: 1px solid #0A5AF9;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #0A5AF9;
+    margin-bottom: 16px;
+    text-transform: none;
+}

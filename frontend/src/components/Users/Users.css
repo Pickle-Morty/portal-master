@@ -1,0 +1,105 @@
+.users__controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 38px;
+}
+
+.users .MuiTextField-root {
+    width: 75%;
+}
+
+.users-list {
+    max-height: 500px;
+    overflow: auto;
+}
+
+.user-row {
+    display: flex;
+    align-items: center;
+}
+
+.user-column-left {
+    width: 370px;
+    margin-right: 80px;
+}
+
+.user-name {
+    font-size: 18px;
+    color: #2A2A2A;
+}
+
+.user-column .MuiFormControlLabel-root {
+    font-size: 18px;
+    color: #666666;
+    margin-right: 50px;
+}
+
+.MuiRadio-colorPrimary.Mui-checked {
+    color: #0A5AF9 !important;
+}
+
+.add-user-modal {
+    position: relative;
+}
+
+.add-user-modal .MuiDialog-paper {
+    width: 600px;
+    padding: 43px 70px;
+}
+
+.close-modal {
+    position: absolute !important;
+    top: 0;
+    right: 0;
+}
+
+.MuiDialogTitle-root, .MuiDialogContent-root {
+    padding: 0 !important;
+}
+
+.header-modal .MuiTypography-h6 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #2A2A2A;
+}
+
+.add-user-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.add-user-form__input {
+    margin-bottom: 20px !important;
+}
+
+.add-user-roles {
+    font-size: 20px;
+    font-weight: 400;
+    color: #2A2A2A;
+    margin-bottom: 40px;
+}
+
+.add-user-form .MuiFormGroup-root {
+    justify-content: space-between;
+}
+
+.add-user-form .MuiButton-root {
+    width: 360px;
+    height: 50px;
+    background: #0A5AF9;
+    border-radius: 5px;
+    align-self: center;
+    margin-top: 50px;
+    text-transform: none;
+    font-size: 18px;
+    color: #fff;
+}
+
+.add-user-form .MuiButton-root:hover {
+    background: #2c52ed;
+}
+
+.MuiDialogActions-root {
+    justify-content: center !important;
+}

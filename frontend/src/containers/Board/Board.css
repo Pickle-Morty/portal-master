@@ -1,0 +1,155 @@
+.main-board {
+    margin-top: 38px;
+    padding-bottom: 40px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top__title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #2A2A2A;
+    margin: 0;
+}
+
+.board-posts {
+    margin-top: 54px;
+}
+
+.board-posts-empty {
+    margin-top: 54px;
+    font-size: 18px;
+    color: #656565;
+}
+
+.board-post {
+    border: 1px solid #D7D7D7;
+    border-radius: 10px;
+    padding: 38px 40px;
+    margin-bottom: 24px;
+}
+
+.board-post__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    color: #2A2A2A;
+    margin-bottom: 24px;
+}
+
+.board-post__title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #2A2A2A;
+    margin: 0;
+}
+
+.board-post__desc {
+    font-size: 16px;
+    color: #2A2A2A;
+    line-height: 19px;
+    margin: 24px 0;
+}
+
+.board-post-file {
+    padding-left: 28px;
+}
+
+.board-post-file a {
+    display: inline-block;
+    font-size: 16px;
+    color: #2A2A2A;
+    text-decoration: none;
+    position: relative;
+    margin-right: 40px;
+}
+
+.board-post-file a::after {
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: url("../../assets/ic-cloud.svg") center no-repeat;
+    position: absolute;
+    right: -30px;
+    top: 50%;
+    margin-top: -9px;
+}
+
+.add-notice-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.upload-file {
+    width: 170px;
+}
+
+.upload-file .MuiButton-root {
+    text-transform: none;
+    font-size: 16px;
+    color: #2A2A2A;
+    padding: 0;
+}
+
+.upload-file .MuiButton-root:hover {
+    background: transparent;
+}
+
+.file-preview {
+    margin-top: 20px;
+}
+
+.file-preview span {
+    display: block;
+    margin-bottom: 10px;
+    padding-left: 33px;
+    position: relative;
+}
+
+.file-preview span::before {
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: url("../../assets/ic-clip.svg") center no-repeat;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -9px;
+}
+
+.add-new-file {
+    padding-left: 33px;
+}
+
+.add-notice-form .MuiTextField-root {
+    margin-bottom: 16px;
+}
+
+.form-button-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.form-button-wrap .MuiButton-root {
+    width: 360px;
+    height: 50px;
+    background: #0A5AF9;
+    border-radius: 5px;
+    align-self: center;
+    margin-top: 50px;
+    text-transform: none;
+    font-size: 18px;
+    color: #fff;
+}
+
+.form-button-wrap .MuiButton-root:hover {
+    background: #2c52ed;
+}

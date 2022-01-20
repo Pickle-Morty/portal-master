@@ -1,0 +1,86 @@
+.subjects {
+    position: relative;
+}
+
+.subjects__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.subjects-list-empty {
+    font-size: 18px;
+    color: #656565;
+}
+
+.subjects__item {
+    font-size: 18px;
+    color: #2A2A2A;
+    margin-bottom: 20px;
+}
+
+.subjects-controls {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: -70px;
+    right: 0;
+}
+
+.subject-modal {
+    position: relative;
+}
+
+.subject-modal .MuiDialog-paper {
+    width: 600px;
+    padding: 43px 40px;
+}
+
+.close-modal {
+    position: absolute !important;
+    top: 0;
+    right: 0;
+}
+
+.MuiDialogTitle-root, .MuiDialogContent-root {
+    padding: 0 !important;
+}
+
+.header-modal .MuiTypography-h6 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #2A2A2A;
+}
+
+.subject-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.subject-form .MuiButton-root {
+    width: 360px;
+    height: 50px;
+    background: #0A5AF9;
+    border-radius: 5px;
+    align-self: center;
+    margin-top: 50px;
+    text-transform: none;
+    font-size: 18px;
+    color: #fff;
+}
+
+.subject-form .MuiButton-root:hover {
+    background: #2c52ed;
+}
+
+.subject-form .MuiFormControl-root {
+    margin-bottom: 16px;
+}
+
+.my-subject-list__item {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 18px;
+}

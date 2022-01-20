@@ -1,0 +1,44 @@
+.dialog-message {
+    margin-bottom: 34px;
+}
+
+.message__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.message .message__user-name {
+    font-size: 16px;
+    font-weight: 700;
+    color: #2A2A2A;
+}
+
+.message-my .message__user-name {
+    color: #0A5AF9;
+}
+
+.message__date {
+    font-size: 16px;
+    color: #666666;
+}
+
+.message__content {
+    display: flex;
+}
+
+.message__text {
+    font-size: 16px;
+    color: #2A2A2A;
+    margin: 0 10px 0 0;
+}
+
+.message-file-upload span {
+    font-size: 0;
+}
+
+.message-file-preview {
+    position: absolute;
+    bottom: 50px;
+}

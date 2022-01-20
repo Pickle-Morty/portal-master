@@ -1,0 +1,79 @@
+.dialogs__item {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 14px 24px;
+    border-radius: 5px;
+    margin-bottom: 14px;
+    cursor: pointer;
+}
+
+.dialog__item-link {
+    text-decoration: none;
+}
+
+.dialogs__item:hover {
+    background: #F7F7F7;
+}
+
+.dialogs__item--selected {
+    background: #F7F7F7;
+}
+
+.dialogs__item-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: #2A2A2A;
+    margin-bottom: 8px;
+    position: relative;
+}
+
+.dialogs__item--online .dialogs__item-info::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #00C980;
+    position: absolute;
+    top: 5px;
+    left: -15px;
+}
+
+.dialogs__item-info__date {
+    font-weight: 400;
+    opacity: 0.5;
+}
+
+.dialogs__item-message {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dialogs__item-message__text {
+    font-size: 16px;
+    color: #666666;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 300px;
+    white-space: nowrap;
+    margin: 0;
+}
+
+.dialogs__item-count {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #0A5AF9;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 25px;
+}
